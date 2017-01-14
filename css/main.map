@@ -1,0 +1,34 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/base/_variables.scss",
+		"../scss/base/_mixins.scss",
+		"../scss/base/_reset.scss",
+		"../scss/base/_base.scss",
+		"../scss/layout/_header.scss",
+		"../scss/layout/_footer.scss",
+		"../scss/layout/_nav.scss",
+		"../scss/modules/_typography.scss",
+		"../scss/modules/_buttons.scss",
+		"../scss/modules/_blocks.scss",
+		"../scss/modules/_components.scss"
+	],
+	"sourcesContent": [
+		"/* There will be no styles in here at all, it will be all imports */\r\n@import 'base/_variables.scss';\r\n@import 'base/_mixins.scss';\r\n@import 'base/_reset.scss';\r\n@import 'base/_base.scss';\r\n\r\n@import 'layout/_header.scss';\r\n@import 'layout/_footer.scss';\r\n@import 'layout/_nav.scss';\r\n\r\n@import 'modules/_typography.scss';\r\n@import 'modules/_buttons.scss';\r\n@import 'modules/_blocks.scss';\r\n@import 'modules/_components.scss';\r\n",
+		"$primary-blue:#3b5998",
+		"/* the ':5px' sets 5px as the default if nothing is passed in */\r\n@mixin border-radius($radius:5px) {\r\n\t-webkit-border-radius:$radius;\r\n\t-moz-border-radius:$radius;\r\n\tborder-radius:$radius;\r\n}",
+		"* {\r\n\tmargin:0;\r\n\tpadding:0;\r\n\tlist-style:none;\r\n}",
+		"/* Paragraphs, headers, etc. */\r\n\r\nbody {\r\n\t\r\n}\r\n\r\n#container {\r\n\t\r\n}\r\n\r\nsection {\r\n\t\r\n}",
+		"header {\r\n\tbackground:$primary-blue;\r\n\theight:40px;\r\n\r\n\t/* LOGO  & SEARCH FIELD*/\r\n\t.header--search_div {\r\n\t\tmax-height: 100%;\r\n\t\tmax-width:100px;\r\n\t\tpadding: 10px 80px 10px 70px;\r\n\t}\r\n\r\n\t#headerLogo {\r\n\t\tmax-height:100%;\r\n\t\tmax-width:100%;\r\n\t\t#headerLogo--img {\r\n\t\t\t/* these two are so the image fits to the div */\r\n\t\t\tmax-height: 100%;\r\n\t\t\tmax-width: 100%;\r\n\t\t}\r\n\t}\r\n\r\n\t#searchBox {\r\n\t\twidth: 80px;\r\n\t\theight: 100%;\r\n\t\tborder-radius:10px;\r\n\t}\r\n}\r\n",
+		"footer {\r\n\t\r\n}\r\n",
+		"nav {\r\n\t\r\n}\r\n\r\nnav li {\r\n\t\r\n}\r\n\r\nnav a {\r\n\t\r\n}",
+		"/* Special heading classes, different classes, etc. */",
+		"",
+		"/* Sidebar blocks and stuff */",
+		"/* Alerts, progress bars, etc. */"
+	],
+	"mappings": "AAAA,oEAAoE;AEApE,gEAAgE;;ACAhE,AAAA,CAAC,CAAC;EACD,MAAM,EAAC,CAAE;EACT,OAAO,EAAC,CAAE;EACV,UAAU,EAAC,IAAK;CAChB;;ACJD,+BAA+B;;ACA/B,AAAA,MAAM,CAAC;EACN,UAAU,EJDG,OAAO;EIEpB,MAAM,EAAC,IAAK;EAEZ,yBAAyB;CAsBzB;;;AA1BD,AAKC,MALK,CAKL,mBAAmB,CAAC;EACnB,UAAU,EAAE,IAAK;EACjB,SAAS,EAAC,KAAM;EAChB,OAAO,EAAE,mBAAoB;CAC7B;;;AATF,AAWC,MAXK,CAWL,WAAW,CAAC;EACX,UAAU,EAAC,IAAK;EAChB,SAAS,EAAC,IAAK;CAMf;;;AAnBF,AAcE,MAdI,CAWL,WAAW,CAGV,gBAAgB,CAAC;EAChB,gDAAgD;EAChD,UAAU,EAAE,IAAK;EACjB,SAAS,EAAE,IAAK;CAChB;;;AAlBH,AAqBC,MArBK,CAqBL,UAAU,CAAC;EACV,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;EACb,aAAa,EAAC,IAAK;CACnB;;AGzBF,sDAAsD;AEAtD,8BAA8B;ACA9B,iCAAiC",
+	"names": []
+}

@@ -1,0 +1,49 @@
+/* There will be no styles in here at all, it will be all imports */
+/* the ':5px' sets 5px as the default if nothing is passed in */
+/* line 1, D:/Programming/FacebookClone/scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Paragraphs, headers, etc. */
+/* line 1, D:/Programming/FacebookClone/scss/layout/_header.scss */
+header {
+  background: #3b5998;
+  height: 40px;
+  /* LOGO  & SEARCH FIELD*/
+}
+
+/* line 6, D:/Programming/FacebookClone/scss/layout/_header.scss */
+header .header--search_div {
+  max-height: 100%;
+  max-width: 100px;
+  padding: 10px 80px 10px 70px;
+}
+
+/* line 12, D:/Programming/FacebookClone/scss/layout/_header.scss */
+header #headerLogo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* line 15, D:/Programming/FacebookClone/scss/layout/_header.scss */
+header #headerLogo #headerLogo--img {
+  /* these two are so the image fits to the div */
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* line 22, D:/Programming/FacebookClone/scss/layout/_header.scss */
+header #searchBox {
+  width: 80px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Special heading classes, different classes, etc. */
+/* Sidebar blocks and stuff */
+/* Alerts, progress bars, etc. */
+
+/*# sourceMappingURL=../css/main.map */

@@ -1,0 +1,6 @@
+/* the ':5px' sets 5px as the default if nothing is passed in */
+@mixin border-radius($radius:5px) {
+	-webkit-border-radius:$radius;
+	-moz-border-radius:$radius;
+	border-radius:$radius;
+}
