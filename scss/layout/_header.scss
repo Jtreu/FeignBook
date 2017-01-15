@@ -1,17 +1,24 @@
-header {
-	background:$primary-blue;
-	height:40px;
+$image-size: 15px;
 
-	/* LOGO  & SEARCH FIELD*/
+header {
+	background: $primary-blue;
+	height: 40px;
+
+	/* LOGO & SEARCH FIELD */
 	.header--search_div {
 		max-height: 100%;
-		max-width:100px;
+		width: 300px;
 		padding: 10px 80px 10px 70px;
+		text-align: left;
+
+		* {
+			display: inline-block;
+		}
 	}
 
 	#headerLogo {
-		max-height:100%;
-		max-width:100%;
+		max-height: $image-size;
+		max-width: $image-size;
 		#headerLogo--img {
 			/* these two are so the image fits to the div */
 			max-height: 100%;
@@ -22,6 +29,6 @@ header {
 	#searchBox {
 		width: 80px;
 		height: 100%;
-		border-radius:10px;
+		border-radius: 10px;
 	}
 }
